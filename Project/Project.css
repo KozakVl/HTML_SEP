@@ -1,0 +1,603 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+                            /*Блок Хедер з Лого та навігацією по сайту*/
+header {
+    width: 100vw;
+    height: 150px;
+    background-color: #fff;
+
+}
+
+.logodiv {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 25px 0 15px 135px;
+    box-sizing: border-box;
+}
+
+.logoimg {
+    width: 186px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    background-color: #fff;
+    height: 60px;
+    gap: 29.626px;
+    padding-left: 135px;
+}
+
+.nav > a {
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+    color: #99A2AA;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+                            /*Перший блок*/
+                        /*Оформлюйте передплату*/
+.first {
+    height: 442px;
+    background-color: #FEC524;
+    padding-left: 135px;
+}
+
+.first > .slider-item > div > p {
+    margin: 0;
+    font: 44px Rubik;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.first > .slider-item {
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.sub-title {
+    padding-top: 34px;
+    padding-bottom: 62.5px;
+    font: 16px "Open Sans";
+    font-weight: 400;
+    margin: 0;
+}
+
+.action-holder {
+    padding-top: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-input {
+    all: unset;
+    padding-left: 30px;
+    height: 72px;
+    width: 570px;
+    background: #ffffff;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    border-radius: 10px;
+    font: 16px Rubik;
+    color: #757575;
+    border: unset;
+    box-sizing: border-box;
+}
+
+.box {
+    text-decoration: none;
+    width: 270px;
+    height: 80px;
+    border-radius: 10px;
+    font: 16px Rubik;
+    font-weight: 700;
+    color: #99A2AA;
+    line-height: 20px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box:hover {
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+/*Батьківський блок з 4-ма div */
+
+.box-wrapper > a {
+    width: 270px;
+    height: 80px;
+    border-radius: 10px;
+    font: 16px Rubik;
+    font-weight: 700;
+    color: #99A2AA;
+    line-height: 20px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.icon1 {
+    display: flex;
+}
+
+.box-wrapper {
+    display: flex;
+    gap: 30px
+}
+                                        /*Другий блок*/
+                                    /*Поштові послуги*/
+
+.second-section {
+    background: #F8F8F8;
+    height: 800px;
+
+}
+
+.second-section {
+    background-color: #F8F8F8;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 100px 135px 70px 120px;
+
+}
+
+.post-supplies-child {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 630px;
+    display: flex;
+    gap: 15px;
+}
+
+.post-service {
+    width: 400px;
+    height: 630px;
+    padding-top: 31px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.post-blocks {
+    width: 785px;
+    height: 630px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+}
+
+.column1 {
+    width: 370px;
+    height: 630px;
+}
+
+.column2 {
+    width: 370px;
+    height: 630px;
+}
+
+.service-box {
+    width: 370px;
+    height: 180px;
+    margin-bottom: 30px;
+    font: 24px Rubik;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 32px 30px;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: #0E2F4B;
+    line-height: 32px;
+}
+
+.details-link {
+    text-decoration: none;
+    padding-top: 9px;
+    font: 14px Rubik;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.details-link:visited {
+    color: #0E2F4B;
+}
+
+.details-link::after {
+    content: "";
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    margin-left: 3px;
+}
+
+.post-supplies-child > .post-service > div > h1 {
+    color: #0E2F4B;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+
+.post-supplies-child > .post-service > div > p {
+    color: #0E2F4B;
+    font-family: Open Sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+h1, h3, p {
+    margin: 0;
+}
+
+.post-poslugu {
+    margin-bottom: 3px;
+}
+
+.poslugu-post {
+    margin-bottom: 36px;
+}
+
+.post-poslugu-p124 {
+    margin-bottom: 1px;
+
+}
+
+.post-poslugu-p3 {
+    margin-bottom: 18px;
+}
+
+.nav > a:hover {
+    border-bottom: 2px solid black;
+}
+
+                                        /*Третій блок*/
+                            /*Започаткуйте успішний міжнародний бізнес*/
+
+
+.third-section {
+    height: 660px;
+    width: 100%;
+    background-color: #0E2F4B;
+    box-sizing: border-box;
+    padding: 120px 135px 150px 120px;
+}
+
+.third-section-child {
+    background-color: #0E2F4B;
+    height: 390px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+}
+
+.third-section-child-p1 {
+    color: #F8F8F8;
+    font-family: Rubik, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+
+
+.third-section-child-p3 {
+    color: #99A2AA;
+    font-family: Open Sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 44px;
+    padding-top: 36px;
+}
+
+.third-section-child-button {
+    all: unset;
+    width: 305px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FDC13D;
+    display: flex;
+    padding: 28px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: 15px;
+
+}
+
+.third-section-child-button {
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 305px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    color: #0E2F4B;
+    text-align: center;
+    font: 20px Rubik;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+
+.third-section-child-button:hover {
+    cursor: pointer;
+}
+
+                                            /*Четвертий блок*/
+                                          /*Фінансові послуги*/
+
+.fourth-section {
+    height: 880px;
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 100px 120px 0 120px;
+    box-sizing: border-box;
+}
+
+.fourth-section-child {
+    width: 100%;
+    height: 780px;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+    padding: 0 15px 80px 15px;
+}
+
+.fourth-section-child-head {
+    width: 100%;
+    height: 220px;
+    box-sizing: border-box;
+    margin-bottom: 121px;
+    padding: 52px 117px 0 75px;
+    border-radius: 10px;
+    background: #FDC13D;
+}
+
+.fourth-section-child > h1 {
+    color: #0E2F4B;
+    font-family: Rubik, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.fourth-section-child-footer {
+    display: flex;
+    gap: 30px;
+}
+
+.fourth-section-child-box {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    padding: 32px 0 148px 30px;
+    background-color: #F8F8F8;
+}
+
+.fourth-section-child-head > h3 {
+    color: #0E2F4B;
+    font-family: Rubik, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    display: flex;
+    width: 977.15px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.fourth-section-child-head > p {
+    display: flex;
+    width: 980.904px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: Open Sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.fourth-section-child-head-a {
+    color: #0E2F4B;
+    line-height: 24px;
+    text-decoration: none;
+    padding-top: 9px;
+    font: 16px Rubik;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.fourth-section-child-head-a:after{
+    content: "";
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    margin-left: 3px;
+    color: #0E2F4B;
+}
+
+
+.fourth-section-child-box > p {
+    display: flex;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0E2F4B;
+    font-family: Rubik, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 4px;
+}
+
+.fourth-section-child-box-a{
+    text-decoration: none;
+    height: 17px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0E2F4B;
+    font-family: Rubik, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.fourth-section-child-box-a::after{
+    content: "";
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    margin-left: 3px;
+}
+
+.fourth-section-child-box > .fourth-section-child-footer-margin-bottom {
+    margin-bottom: 13px;
+}
+
+                                        /*П'ятий блок*/
+                                      /*Знайти індекс*/
+
+.fifth-section {
+    height: 635px;
+    box-sizing: border-box;
+    padding: 134.5px 120px 135.5px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E2F4B;
+}
+
+.fifth-section-child {
+    height: 365px;
+    width: 100%;
+    background-color: #0E2F4B;
+    box-sizing: border-box;
+    padding: 31px 50px 31px 15px;
+}
+
+.fifth-section-child > h1 {
+    color: #F8F8F8;
+    font-family: Rubik, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 36px;
+}
+
+.fifth-section-child > p {
+    color: #99A2AA;
+    font-family: Open sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.fifth-section-child-p-margin-bottom {
+    margin-bottom: 80px;
+}
+
+.fifth-section-child > div > form > input {
+    all: unset;
+    display: flex;
+    width: 505.98px;
+    height: 78px;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #E8EBEE;
+    background: #FFF;
+    color: #6C757D;
+    font-family: Rubik, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-right: 11px;
+}
+
+.fifth-section-child-button {
+    box-sizing: border-box;
+    display: flex;
+    width: 248.98px;
+    height: 80px;
+    padding: 28px 86.725px 28px 87.05px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FDC13D;
+    color: #0E2F4B;
+    text-align: center;
+    font-family: Rubik, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 400% */
+    border: 0;
+}
+.fifth-section-child-button:hover{
+    cursor: pointer;
+}
+
+.fifth-section-child-form > form {
+    display: flex;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
